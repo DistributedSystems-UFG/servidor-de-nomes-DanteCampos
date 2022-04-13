@@ -16,4 +16,4 @@ Ao iniciar, se conecta ao servidor de nomes para receber os endereços e portas 
 A biblioteca [english-words-py](https://github.com/mwiens91/english-words-py) foi utilizada para obter a lista de palavras a serem criptografadas e descriptografadas.
 Para instalá-la, utilize o comando ```pip install english-words```.
 
-[**Vídeo de Exemplo**](https://youtu.be/EI0FI9JAphs)
+[**Vídeo Demonstrativo**](https://youtu.be/EI0FI9JAphs)
