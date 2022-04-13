@@ -8,7 +8,7 @@ Executamos esse servidor como um ```Threaded Server``` do RPyC para que o dicion
 **Servidores de Aplicação**:  
 Dois simples servidores disponibilizam as operações de criptografar e descriptografar, uma string de acordo com uma chave. Ao serem iniciados, sempre registram seus nomes no servidor de nomes.
 
-**Cliente**:
+**Cliente**:  
 Para cada palavra na língua inglesa, criptografa e então descriptografa através dos métodos remotos implementados nos servidores de aplicação.
 Ao iniciar, se conecta ao servidor de nomes para receber os endereços e portas dos servidores de aplicação.
 
