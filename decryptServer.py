@@ -8,7 +8,7 @@ class decryptServer(rpyc.Service):
 		for char in string:
 			char = chr(ord(char) - key)
 			decrypted += char
-		print (string, '+', key, '-> ', decrypted)
+		print (string, '-', key, '-> ', decrypted)
 		return decrypted
 
 if __name__ == "__main__":
